@@ -1,8 +1,3 @@
-ここに私の作成記録を作っていきたいと思います。Next.jsを使ってちぎれた掲示板アプリを作っていきたいと思います。
-
-"下記元から書いてあったもの"
-
-
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
