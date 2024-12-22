@@ -1,5 +1,5 @@
 
-import { supabase } from '@/utils/supabase/client'
+import supabase from '@/utils/supabase/client'
 // import { cookies } from 'next/headers'
 
 export default async function Page() {
@@ -26,6 +26,10 @@ export default async function Page() {
         }
     }
 
+    const supabasetodos = await hoge()
+    console.log(supabasetodos)
+    console.log(3)
+
 
 
 
@@ -33,11 +37,11 @@ export default async function Page() {
     return (
         <div>
             <div>aa</div>
-            {/* <ul>
-                {hoge.map((todo) => (
-                    <li key={todo.id}>{todo}</li>
+            <ul>
+                {supabasetodos.map((todo) => (
+                    <li key={todo.id}>{todo.test}</li>
                 ))}
-            </ul> */}
+            </ul>
         </div>
     )
 }
